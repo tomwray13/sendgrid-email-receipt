@@ -1,9 +1,11 @@
 # Template design for email receipt
 
 ## Credit to Sendgrid 
+
 This template was modified from the open source set of [email templates provided by Sendgrid](https://github.com/sendgrid/email-templates). Please follow their respective usage, purpose, contribution and licencing docs.
 
 ## Usage
+
 Clone this repository or download as a zip to get started. Email templates already contain some style, but are intended to be used as a starting point for you to customize to match your brand.
 
 To get started, open a template in your favorite code editor. By default, the Paste templates contain some placeholder content that we suggest replacing with your own information. The templates contain HTML comments describing the sections and in certain cases the content within those sections will explain their purpose (e.g. preheader). 
