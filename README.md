@@ -1,8 +1,6 @@
 # Template design for email receipt
 
-## Credit to Sendgrid 
-
-This template was modified from the open source set of [email templates provided by Sendgrid](https://github.com/sendgrid/email-templates). Please follow their respective usage, purpose, contribution and licencing docs.
+**Credit to Sendgrid:**This template was modified from the open source set of [email templates provided by Sendgrid](https://github.com/sendgrid/email-templates). Please follow their respective usage, purpose, contribution and licencing docs.
 
 ## Usage
 
