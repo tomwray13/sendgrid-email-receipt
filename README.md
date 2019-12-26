@@ -1,34 +1,18 @@
-![SendGrid Logo](https://uiux.s3.amazonaws.com/2016-logos/email-logo%402x.png)
+# Template design for email receipt
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/sendgrid.svg?style=social&label=Follow)](https://twitter.com/sendgrid)
-[![GitHub contributors](https://img.shields.io/github/contributors/sendgrid/email-templates.svg)](https://github.com/sendgrid/email-templates/graphs/contributors)
+## Credit to Sendgrid 
+This template was modified from the open source set of [email templates provided by Sendgrid](https://github.com/sendgrid/email-templates). Please follow their respective usage, purpose, contribution and licencing docs.
 
-A repository of common email templates to use and modify to your heart's content.
-
-# Table of Contents
-
-* [Usage](#usage)
-* [Purpose](#purpose)
-* [Contributing](#contributing)
-* [Paste Templates](#paste-templates)
-* [License](#license)
-
-## Purpose
-The purpose of this repo is to provide email skeletons that someone can use to build any emails that they would like to build. The content of the email templates in this repo doesn't really matter, we are more focused on providing templates that can be used in multiple ways.
-
-<a name="usage"></a>
 ## Usage
-[Templates Usage Documentation](https://github.com/sendgrid/email-templates/blob/master/USAGE.md)
+Clone this repository or download as a zip to get started. Email templates already contain some style, but are intended to be used as a starting point for you to customize to match your brand.
 
-<a name="contributing"></a>
-## Contributing
-[Review Pull Requests](https://github.com/sendgrid/email-templates/blob/master/CONTRIBUTING.md)
+To get started, open a template in your favorite code editor. By default, the Paste templates contain some placeholder content that we suggest replacing with your own information. The templates contain HTML comments describing the sections and in certain cases the content within those sections will explain their purpose (e.g. preheader). 
 
-<a name="paste-templates"></a>
-## Paste Templates
-Our initial set of templates were designed and built to reflect the most common transactional templates. These can be a great starting point for new customers of SendGrid.
-
-<a name="license"></a>
-## License
-[The MIT License (MIT)](LICENSE)
+* Update the `title` within the `head` of your template so it's easy to understand the purpose
+* Make any branding changes to the `style` block within the `head` to update webfonts or other base styles
+* Replace the preheader text with content that summarizes your email
+* Update the logo by adjusting the `src=""` attribute to point to a URL that hosts your logo
+* Update the permission text to explain why the recipient is receiving the email
+* Update the unsubscribe link and ensure your address is correct
+* Update any specific content within the email (this will differ based on the template)
+* Make any branding chages to the inline styles, look for `bg-color` and `style` tags on elements
